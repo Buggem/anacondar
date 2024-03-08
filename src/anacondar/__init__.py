@@ -13,7 +13,7 @@ def exit():
   running = False
 def terminal():
   running = True
-  print(f'Anacondar - version 0.1 on {sys.platform.title()}')
+  print(f'Anacondar - version 0.0.2 on {sys.platform.title()}')
   print(f'')
   while running:
     cmd = input(f'{socket.gethostname()}:{os.getcwd()} $ ')
