@@ -3,6 +3,9 @@ from subprocess import run
 import socket
 import os
 import sys
+
+print(__file__)
+
 running = False
 def cd(direc):
   os.chdir(direc)

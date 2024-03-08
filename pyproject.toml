@@ -1,6 +1,10 @@
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [project]
 name = "anacondar"
 version = "0.0.1"
